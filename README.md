@@ -38,6 +38,8 @@ After checking the correlation between the features, we also visualized the dist
 
 Finally, we also looked at the relationship between one of the features, mean radius, and the diagnosis target variable. We used a boxplot to visualize the distribution of mean radius for benign and malignant cases separately. By looking at the boxplot, we can see that the mean radius tends to be higher for malignant cases than benign cases. This information can be useful in feature engineering and model selection, as it suggests that mean radius may be a useful feature for distinguishing between benign and malignant cases.
 
-Results:
+# Results:
+
 ![res](https://user-images.githubusercontent.com/111365771/222963317-04853de7-1ede-4aa5-8ec2-c934e9b8be4d.png)
+
 We trained and evaluated our models using the WDBC dataset. The CNN model achieved an accuracy of 97.37%, the LSTM model achieved an accuracy of 96.49%, and the Conv1D model achieved an accuracy of 95.61%. These results demonstrate the potential of machine learning models for breast cancer diagnosis and the effectiveness of oneDNN in optimizing their performance.
