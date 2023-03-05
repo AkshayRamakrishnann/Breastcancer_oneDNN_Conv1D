@@ -42,4 +42,4 @@ Finally, we also looked at the relationship between one of the features, mean ra
 
 ![res](https://user-images.githubusercontent.com/111365771/222963317-04853de7-1ede-4aa5-8ec2-c934e9b8be4d.png)
 
-We trained and evaluated our models using the WDBC dataset. The CNN model achieved an accuracy of 97.37%, the LSTM model achieved an accuracy of 96.49%, and the Conv1D model achieved an accuracy of 95.61%. These results demonstrate the potential of machine learning models for breast cancer diagnosis and the effectiveness of oneDNN in optimizing their performance.
+We trained and evaluated our models using the WDBC dataset. The Conv1D model achieved an accuracy of 94.73%.
